@@ -1,0 +1,55 @@
+charset "utf-8";
+/* 深圳市静江网络科技有限公司 */
+*{margin:0px; padding:0px;}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust: 100%;}
+body{position:relative; font-family: "Microsoft YaHei", Helvetica, sans-serif !important; -webkit-font-family: "Microsoft YaHei", Helvetica, sans-serif !important; font-weight: normal; color:#000; font-weight:normal; background:#fff; margin:0px; padding:0px;}
+input[type=text],input[type=button],input[type=submit],input[type=file],button {-webkit-appearance:none; outline: none;}
+input[type=button],input[type=submit],input[type=file],button {cursor: pointer;}
+ul,li,h1,h2,h3,h4,h5,h6,p{list-style-type:none; margin:0px; padding:0px;}
+img{border:none;}
+a{text-decoration:none; color:#999; margin:0px; padding:0px;}
+a:hover{text-decoration:none;}
+.clear{clear:both;}
+*,*:before,*:after {-webkit-box-sizing:border-box; box-sizing:border-box;}
+/*初始化样式结束*/
+.wrapper{width: 1400px; min-width: 1400px; height: 100%; margin: auto;}
+
+/*通用头部*/
+#header{width: 100%; min-width: 1400px; height: 147px; background: rgba(43,47,62,0.67); position: absolute; left: 0px; top: 0px;}
+#header .ind_logo{display: block; width: 199px; height: 107px; float: left; margin: 20px 0;}
+#header .head_R{float: right;}
+#header .teldow{width: 100%; height: 75px; text-align: right;}
+#header .teldow a{font: 16px/20px "微软雅黑"; color: #fff; display: inline-block; margin: 27.5px 0 27.5px 15px; padding: 0 15px 0 20px;}
+#header .teldow .tel{background: url(../images/ico_1.png) no-repeat left center,url(../images/ico_3.png) no-repeat right center;}
+#header .teldow .tel:hover{background: url(../images/ico_1.png) no-repeat left center,url(../images/ico_4.png) no-repeat right center;}
+#header .teldow .dow{background: url(../images/ico_2.png) no-repeat left center,url(../images/ico_3.png) no-repeat right center;}
+#header .teldow .dow:hover{background: url(../images/ico_2.png) no-repeat left center,url(../images/ico_4.png) no-repeat right center;}
+#header .teldow .english{background: url(../images/ico_4.png) no-repeat right center;}
+
+#com_nav{text-align: right;}
+#com_nav>ul>li{float: left; height: 72px; padding-top: 26px; position: relative; margin-left: 5px;}
+#com_nav>ul>li>a{font-size: 19px; color: #fff; display: inline-block; width: 117px; height: 46px; text-align: center;}
+#com_nav>ul>li .link{width: auto; margin: 0 20px;}
+#com_nav>ul>li>.xiala{background: url(../images/ico_5.png) no-repeat center 28px;}
+#com_nav>ul>li:hover>a{border-bottom: 4px solid #FCCD39; color: #FCCD39;}
+#com_nav ul .vip{float: left; padding-top: 26px; width: 97px; height: 56px; margin-left: 30px;}
+#com_nav ul .vip a{display: inline-block; width: 97px; height: 30px; border: 1px solid #fff; color: #fff; text-align: center; line-height: 28px;}
+#com_nav>ul>li>.vip:hover{border: 1px solid #fff; color: #fff;}
+#com_nav li .menu_1{display: none;}
+#com_nav>ul>li:hover .menu_1{display: block; position: absolute; width: 100%; padding: 10px 0; background: rgba(43,47,63,0.67);}
+#com_nav>ul>li .menu_1 a{display: block; width: 100%; height: 30px; line-height: 30px; text-align: center; font-size: 15px; color: #fff;}
+#com_nav>ul>li .menu_1 a:hover{background: rgba(252,203,55,0.6);}
+
+/*通用尾部*/
+.footer{width:100%;height: 400px;min-width:1400px;}
+.footer_T{width: 100%;height: 80px;}
+.f_line{width: 1200px;display: inline-block;margin-top: 33px;}
+.footer_T span{font-size: 23px;color:#5A5A5A; font-family: "华文中宋";}
+.f_logo{float: right;}
+.footer_M{height: 25px;width: 1050px; margin: auto;}
+.footer_M li{float: left;width: 150px; text-align: center;}
+.footer_M li a{font-family: "微软雅黑";font-size: 19px;color: #343434;}
+.f_ewm{margin: auto;width: 74px;}
+.f_ewm img{height: 74px;width: 74px;}
+.f_ewm p{padding-left: 5px; font-size: 16px;}
+.copyright{text-align: center;padding-top: 30px;color: #A6A6A6;font-family: "微软雅黑";font-size: 16px;}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>金旅居-我的脚印-基本信息</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/WDJY.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>	
+	</head>
+	<body>
+		<!--背景图片-->
+		<div class="bg_banner"></div>
+		<!--还款记录主体-->
+		<div class="wrapper jbxx">
+			
+			<div class="sele_main">				
+				<div class="sele_tit1">会员中心</div>
+				<div class="sele_tit2">我的旅居卡</div>
+							
+				<div class="sele_tit3">					
+					<div class="sel-boxone" id="Tmcselect01">
+						<input for="label" type="text" readonly value="我的脚印">
+							<ul class="sel-list">
+								<li data="">修改密码</li>
+								<li data="3">基本信息</li>
+								<li data="4">消费明细</li>
+								<li data="5">还款记录</li>
+								<li data="">入住历史</li>
+								<li data="3">生活助理服务</li>
+								<li data="4">我的脚印</li>
+								<li data="5">站内公告</li>
+							</ul>
+					</div>
+				</div>	
+								
+				<div class="sele_tit3">
+					
+					<div class="sel-boxone" id="Tmcselect02">
+						<input for="label" type="text" readonly value="我的权益">
+							<ul class="sel-list">
+								<li data="">旅居卡章程</li>
+								<li data="3">旅居卡使用须知</li>
+								<li data="4">服务项目及收费标准</li>
+								<li data="5">投诉服务</li>
+							</ul>
+					</div>
+				</div>
+				
+				<div class="sele_tit3">					
+					<div class="sel-boxone" id="Tmcselect03">
+						<input for="label" type="text" readonly value="安全退出">
+							<ul class="sel-list">
+								<li data="">退出</li>							
+							</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="jbxx_R">
+				<div class="tit">修改基本信息</div>
+				<div class="jbxx_main">
+					<table>
+						<tr>
+							<td class="finfo">*姓名：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo xingbie">性别：</td>
+							<td class="radios">
+								男<input type="radio" name="sex" value="">
+								女<input type="radio" name="sex" value="" checked="checked">
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">*出生日期：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo">婚姻状况:</td>
+							<td class="radios">
+								已婚<input type="radio" name="marry">
+								未婚<input type="radio"name="marry" checked="checked">
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">*学历：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo">职业: </td>
+							<td class="radios">
+								个人<input type="radio" name="job">
+								事业<input type="radio" name="job" checked="checked">
+								自营<input type="radio" name="job">
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">是否已购买金旅居/伟业地产产品：</td>
+							<td class="radios">
+								否<input type="radio" name="buy">
+								旅居卡<input type="radio" name="buy">
+								伟业地产<input type="radio" name="buy">
+							</td>
+							<td class="finfo">购买用途：</td>
+							<td class="radios"> 
+								自用<input type="radio" name="use">
+								商业<input type="radio" name="use" checked="checked">
+								家人<input type="radio" name="use">
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">工作单位：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo">单位固话：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">手机：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo">收件地址：</td>
+							<td class="finput">
+								<input type="text">
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">年收入：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo">QQ：</td>
+							<td class="finput">
+								<input type="text">
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">邮箱：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo">微信：</td>
+							<td class="finput">
+								<input type="text">
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">家庭住址：</td>
+							<td class="finput">
+								<input type="text" />
+							</td>
+							<td class="finfo">家庭固话：</td>
+							<td class="finput">
+								<input type="text">
+								
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="finfo">兴趣：</td>
+							<td colspan="3">
+								<textarea class="textareas"></textarea>
+							</td>
+						</tr>						
+					</table>
+				</div>
+				<div class="ensure">
+					<input type="submit" value="提交" />
+				</div>
+			</div>
+			
+	<script>
+	$('#Tmcselect01').input();
+	$('#Tmcselect02').input();
+	$('#Tmcselect03').input();
+	</script>
+	</body>
+</html>

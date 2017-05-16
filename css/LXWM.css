@@ -1,0 +1,18 @@
+.wrap1400{width: 1400px; min-width: 1400px; margin: auto; height: auto;}
+/*联系我们*/
+.lxwm_M {padding-top: 85px;}
+.lxwm_M .lxwm_L{height: 685px;width: 800px;text-align: right;}
+.left{float: left;}
+.right{float: right;}
+.lxwm_M .lxwm_L img{height: 600px;width: 800px;}
+.lxwm_M .lxwm_R{padding:220px 0 0 50px;height: 600px;width: 580px;}
+.lxwm_M .lxwm_R span{display: block;}
+.lxwm_M .lxwm_R .span1{font: 31px/35px "微软雅黑";color: #A7A7A7;}
+.lxwm_M .lxwm_R .line{width: 55px;margin-bottom: 60px;border: 1px solid #FCCC37;}
+.lxwm_M .lxwm_R h1{font: 31px/90px "微软雅黑";color: #343434;background: url(../images/line.fw.png) no-repeat bottom left;margin-bottom: 50px;}
+.lxwm_M .lxwm_R p{font:21px/50px "微软雅黑";color: #2E2E2E;}
+.lxwm_M .lxwm_R p{background: url(../images/addr.png) no-repeat left top; padding-left: 40px; margin-left: -40px;}
+
+/*四*/
+.bulid{font-size: 23px;color: #969696;}
+

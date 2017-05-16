@@ -1,0 +1,27 @@
+/*注册*/
+.register_M{width: 100%;height: 900px;background: url(../images/pic_7.jpg) no-repeat center top; background-size:100% 100%;margin-bottom: 75px;}
+.r_form{ width:920px; margin:auto; padding-top:155px;margin-left: 260px;}
+.r_form tr{ height:50px;}
+.f_title{height: 45px;width: 175px;color: #FFFFFF;font-size: 38px;padding-left: 120px;}
+.for_tt{ width: 210px; line-height: 55px; font-size: 20px; color: #fff; text-align: right; padding-right: 10px;}
+.for_input{ width: 250px; text-align: left;}
+.for_input input{ width: 240px; height:32px; background: #fff; border: none; outline: none; line-height: 32px; padding-left: 5px;}
+.f_choose{font-size: 20px; color: #fff;padding-left: 10px;}
+.f_submit{width: 100px;height: 35px;  margin-left: 215px;border-radius: 5px;background: #FCCC37;color: #fff;border: none;font-size: 18px;}
+.textarea{width: 705px;height: 83px;outline: none;}
+.fcho_input{margin-right: 15px;}
+.L_tt{font-family: "微软雅黑";font-size: 38px;color: #fff;}
+.L_table{padding-top: 200px;padding-left: 100px;}
+.L_input input{width: 370px; height:52px; border: none; outline: none; line-height: 52px; padding-left:60px;font-family: "微软雅黑";font-size: 18px;}
+.L_use{background: url(../images/useName.png) no-repeat 20px center #fff;}
+.L_psw{background: url(../images/psw.png) no-repeat 20px center #fff;}
+.L_input{padding-top: 20px;}
+.L_submit{width: 140px;height: 53px;background: #FCCC37;font-size: 18px;font-family: "微软雅黑";color: #FFFFFF;border: none;margin-top: 20px;}
+/*注册页面底部*/
+.r_footer{width: 100%;min-width: 1400px;height: 300px;background: #4E5258;}
+.rf_top{width: 100%;min-width: 1400px;height: 160px;border: 1px solid red;padding-left: 220px;}
+.rf_R{width: 450px;height: 100%;float: left;padding-top: 45px;}
+.rf_img{width: 96px;height: 96px;float: left;}
+.rf_img img{width: 96px;height: 96px;}
+.rf_text{float: left;}
+.rf_text p{color: #FFC539;font-family: "微软雅黑";font-size: 29px;padding-left: 15px;}

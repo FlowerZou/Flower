@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>金旅居-我的脚印-入住历史</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/WDJY.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>	
+	</head>
+	<body>
+		<!--背景图片-->
+		<div class="bg_banner"></div>
+		<!--会员中心主体-->
+		<div class="wrapper rzls">
+			
+			<div class="sele_main">				
+				<div class="sele_tit1">会员中心</div>
+				<div class="sele_tit2">我的旅居卡</div>
+							
+				<div class="sele_tit3">					
+					<div class="sel-boxone" id="Tmcselect01">
+						<input for="label" type="text" readonly value="我的脚印">
+							<ul class="sel-list">
+								<li data="">修改密码</li>
+								<li data="3">基本信息</li>
+								<li data="4">消费明细</li>
+								<li data="5">还款记录</li>
+								<li data="">入住历史</li>
+								<li data="3">生活助理服务</li>
+								<li data="4">我的脚印</li>
+								<li data="5">站内公告</li>
+							</ul>
+					</div>
+				</div>	
+								
+				<div class="sele_tit3">
+					
+					<div class="sel-boxone" id="Tmcselect02">
+						<input for="label" type="text" readonly value="我的权益">
+							<ul class="sel-list">
+								<li data="">旅居卡章程</li>
+								<li data="3">旅居卡使用须知</li>
+								<li data="4">服务项目及收费标准</li>
+								<li data="5">投诉服务</li>
+							</ul>
+					</div>
+				</div>
+				
+				<div class="sele_tit3">					
+					<div class="sel-boxone" id="Tmcselect03">
+						<input for="label" type="text" readonly value="安全退出">
+							<ul class="sel-list">
+								<li data="">退出</li>							
+							</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="rzls_R">
+				<div class="tit">入住历史</div>
+				<div class="rzls_table">
+					<table cellspacing="0">
+						<tr class="tabletit">
+							<td>入住公寓（酒店）</td>
+							<td>消费金额（元）</td>
+							<td>入住日期</td>
+							<td>离店日期</td>
+							<td>订单状态</td>
+							<td>操作</td>
+						</tr>
+						<tr>
+							<td colspan="6" class="rzls_detail">暂无任何入住记录……</td>						
+						</tr>
+						
+					</table>
+				</div>
+			</div>
+			
+	<script>
+	$('#Tmcselect01').input();
+	$('#Tmcselect02').input();
+	$('#Tmcselect03').input();
+	</script>
+	</body>
+</html>

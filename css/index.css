@@ -1,0 +1,45 @@
+/*预定*/
+.reserve{width: 100%; min-width: 1400px; height: 1060px; background: url(../images/ind_pic.jpg) no-repeat top center; padding-top: 480px; text-align: center; color: #fff;}
+.reserve h1{font-size: 82px; font-weight: normal;}
+.reserve h2{font-size: 28px; font-weight: normal;}
+.reserve .reserve_btn{display: inline-block; width: 157px; height: 49px; line-height: 47px; border: 1px solid #fff; color: #fff; font-size: 26px; margin: 20px 0 280px 0;}
+
+/*旅居基地*/
+.item_title{width: 100%; height: 170px; text-align: center;}
+.item_title h1{font: 29px/65px "华文中宋"; color: #FEE18B; background: url(../images/pic_2.jpg) no-repeat center bottom;}
+.item_title h2{font: 51px/105px "微软雅黑"; color: #383737;}
+.ljjd{padding: 35px 0 90px 0;}
+.ljjd .tab_opt{width: 100%; height: 90px; text-align: center;}
+.ljjd .tab_opt span{display: inline-block; width: 100px; height: 75px; line-height: 75px; font-size: 25px; color: #9d9d9d; cursor: pointer;}
+.ljjd .tab_opt .curr{color: #383838;}
+
+/*生活助理*/
+.shzl{width: 100%; min-width: 1400px; height: 505px; background: url(../images/pic_3.jpg) no-repeat top center;}
+.shzl .wrapper{width: 100%; height: 100%; background: rgba(29,30,44,0.64); text-align: center; padding: 70px 0 0 0;}
+.shzl .item_title h2{color: #fff;}
+.shzl p{font-size: 21px; color: #fff; line-height: 35px;}
+.shzl a{font-size: 18px; color: #fff; display: inline-block; margin-top: 80px;}
+.shzl a img{margin-left: 5px;}
+
+/*我们的家&主推商家*/
+.wmdj{width: 100%; min-width: 1400px; height: 765px;}
+.case_t{ padding-top: 70px;;}
+.case_t h1{font: 32px/45px "华文中宋"; color: #FDE6A1; margin-bottom: /*85px;*/}
+.case_t .wmdj_tab p{width: 160px;height: 40px;float: left;border: 1px solid #FDE6A1;text-align: center;font-size: 25px;line-height: 40px; cursor: pointer;}
+.case_t .wmdj_tab p.wtab1{color:#FDE6A1;}
+
+.case_m{ padding-top: 30px;}
+.wmdj_L{width: 600px; float: left;}
+.wmdj_exam{width: 600px;height: 495px;float:left;overflow-y: scroll; overflow-x: hidden; } 
+.wmdj_exam li{width:100%; height: 165px; padding: 15px; cursor: pointer;}
+.wmdj_exam li.curr1{background: #F0F0F0;}
+.wmdj_img{float:left;width: 185px;height:135px;}
+.wmdj_img img{ width:185px; height: 135px;}
+.wmdj_text{float: left; width: 350px; padding-left: 25px;}
+.wmdj_text p a{font-family: "微软雅黑";font-size: 21px;color: #5F5F5F; padding-top: 25px;}
+.wmdj_text span{font-family: "微软雅黑";font-size:14px;color: #797979;}
+.wmdj_text b{color: #2AD0E4;font-family: "微软雅黑";font-size:14px;}
+
+
+.wmdj_R{width: 740px; float: right; height: 100%;}
+.wmdj_R .wmdj_R1 img{width: 100%;height: 495px;}

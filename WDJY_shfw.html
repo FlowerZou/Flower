@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>金旅居-我的脚印-生活服务订单</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/WDJY.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>	
+	</head>
+	<body>
+		<!--背景图片-->
+		<div class="bg_banner"></div>
+		<!--会员中心主体-->
+		<div class="wrapper rzls">
+			
+			<div class="sele_main">				
+				<div class="sele_tit1">会员中心</div>
+				<div class="sele_tit2">我的旅居卡</div>
+							
+				<div class="sele_tit3">					
+					<div class="sel-boxone" id="Tmcselect01">
+						<input for="label" type="text" readonly value="我的脚印">
+							<ul class="sel-list">
+								<li data="">修改密码</li>
+								<li data="3">基本信息</li>
+								<li data="4">消费明细</li>
+								<li data="5">还款记录</li>
+								<li data="">入住历史</li>
+								<li data="3">生活助理服务</li>
+								<li data="4">我的脚印</li>
+								<li data="5">站内公告</li>
+							</ul>
+					</div>
+				</div>	
+								
+				<div class="sele_tit3">
+					
+					<div class="sel-boxone" id="Tmcselect02">
+						<input for="label" type="text" readonly value="我的权益">
+							<ul class="sel-list">
+								<li data="">旅居卡章程</li>
+								<li data="3">旅居卡使用须知</li>
+								<li data="4">服务项目及收费标准</li>
+								<li data="5">投诉服务</li>
+							</ul>
+					</div>
+				</div>
+				
+				<div class="sele_tit3">					
+					<div class="sel-boxone" id="Tmcselect03">
+						<input for="label" type="text" readonly value="安全退出">
+							<ul class="sel-list">
+								<li data="">退出</li>							
+							</ul>
+					</div>
+				</div>
+			</div>
+	<!--右边-->
+			<div class="shfw_R">	
+				<div class="tit">生活助理服务订单</div>
+				<div class="tit1">您可以查阅过往24个月内的消费记录</div>
+				<div class="tit2">
+					<div class="begin">
+						<span>开始时间</span>
+						<input type="tex" />					
+					</div>
+					
+					<div class="end">
+						<span>结束时间</span>
+						<input type="tex" />
+					</div>
+					<div class="search">
+						<input type="submit" value="搜索">
+					</div>
+					<div class="clear"></div>
+				</div>
+				
+				<div class="resul">
+					<table  cellspacing="0">
+						<tr class="tr1">
+							<td class="td1">订单编号</td>
+							<td class="td2">工号</td>
+							<td class="td3">生活助理</td>
+							<td class="td4">订单状态</td>
+							<td class="td5">服务日期</td>
+							<td class="td6">操作</td>
+						</tr>
+						<tr>
+							<td>BS_20160122134241369</td>
+							<td>ZL0022</td>
+							<td>叶紫</td>
+							<td>预约</td>
+							<td>2016-01-14至2016-01-14</td>
+							<td class="shfw_detail">
+								<a href="#">详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td>BS_20160122134241369</td>
+							<td>ZL0022</td>
+							<td>叶紫</td>
+							<td>预约</td>
+							<td>2016-01-14至2016-01-14</td>
+							<td class="shfw_detail">
+								<a href="#">详情</a>
+							</td>
+						</tr>
+						<tr>
+							<td>BS_20160122134241369</td>
+							<td>ZL0022</td>
+							<td>叶紫</td>
+							<td>预约</td>
+							<td>2016-01-14至2016-01-14</td>
+							<td class="shfw_detail">
+								<a href="#">详情</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>			
+		</div>
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+</script>	
+	</body>
+</html>
